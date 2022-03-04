@@ -9,7 +9,7 @@ create table    Staff_Details (
     Salary decimal,
   	ContractType enum("Perm","Temp") DEFAULT "Perm",
   	PRIMARY KEY (Name),
-	UNIQUE (EmpID)
+	UNIQUE (StaffNo)
 );
 insert into Staff_Details (StaffNo, Name, Age, StartDate, Grade, Salary)
 values 	(3, "Freddie", 25, "2020-07-01", "C", 24000),
