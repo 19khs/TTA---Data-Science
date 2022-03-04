@@ -13,8 +13,8 @@ create table    Staff_Details (
 );
 insert into Staff_Details (StaffNo, Name, Age, StartDate, Grade, Salary)
 values 	(3, "Freddie", 25, "2020-07-01", "C", 24000),
-		(2, "Lucy",26,"2018-01-02","B",34400),
-		(1, "Jamie", 43, "2015-08-05","A",62000),
+	(2, "Lucy",26,"2018-01-02","B",34400),
+	(1, "Jamie", 43, "2015-08-05","A",62000),
 		
 
 EXPLAIN StaffList;
