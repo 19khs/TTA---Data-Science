@@ -1,7 +1,7 @@
 CREATE DATABASE StaffList;
 
 create table    Staff_Details (
-  	StaffNo int,
+    StaffNo int,
     Name varchar(40),
     Title enum('Mr','Ms','Mrs'),
     Age int,
